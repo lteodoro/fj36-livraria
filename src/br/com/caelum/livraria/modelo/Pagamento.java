@@ -15,7 +15,7 @@ public class Pagamento implements Serializable {
 	private static final String STATUS_CONFIRMADO = "CONFIRMADO";
 	private static final String STATUS_CANCELADO = "CANCELADO";
 	
-	@Id 
+	@Id
 	private Integer id;
 	private String status;
 	private BigDecimal valor;
